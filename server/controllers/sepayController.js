@@ -7,16 +7,13 @@ import { inngest } from "../inngest/index.js";
    CONFIG
 ============================ */
 const client = new SePayPgClient({
-  env: "sandbox",
-  merchant_id: "SP-TEST-KN476984",
-  secret_key: "spsk_test_JVTTASDxxbKQQVDKGgeiNQAPctMkRTBr",
+  env: process.env.SEPAY_ENV,
+  merchant_id: process.env.SEPAY_MERCHANT_ID,
+  secret_key: process.env.SEPAY_SECRET_KEY,
 });
 
-// URL NGROK – BACKEND PUBLIC
-const BASE_URL = "https://leporine-semaj-unlimitedly.ngrok-free.dev";
-
-// URL FRONTEND (browser của user)
-const FRONTEND_URL = "http://localhost:5173";
+const BASE_URL = process.env.BASE_URL;
+const FRONTEND_URL = process.env.FRONTEND_URL;
 
 /* ============================
    CREATE PAYMENT

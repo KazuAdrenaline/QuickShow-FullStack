@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 import { Search, Eye } from "lucide-react";
 
 import Loading from "../../components/Loading";
@@ -79,11 +78,10 @@ const ListBookings = () => {
   });
 
   /* ===================== BADGE COLORS ===================== */
-  const badge = (paid) => {
-    return paid
+  const badge = (paid) =>
+    paid
       ? "bg-green-100 text-green-700"
       : "bg-red-100 text-red-700";
-  };
 
   /* ===================== UI ===================== */
   return !isLoading ? (
@@ -93,13 +91,16 @@ const ListBookings = () => {
 
       <main className="max-w-7xl mx-auto py-8 px-4 lg:px-8">
 
-        {/* =====================  BIỂU ĐỒ  ===================== */}
+        {/* BIỂU ĐỒ */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
           <DailyBookingsChart title="Lượt đặt vé theo ngày" data={daily} />
-          <StatusDistributionChart title="Tỉ lệ trạng thái thanh toán" data={statusData} />
+          <StatusDistributionChart
+            title="Tỉ lệ trạng thái thanh toán"
+            data={statusData}
+          />
         </div>
 
-        {/* =====================  THANH TÌM KIẾM  ===================== */}
+        {/* TÌM KIẾM */}
         <div className="flex justify-end mb-6">
           <div className="relative">
             <input
@@ -114,12 +115,8 @@ const ListBookings = () => {
           </div>
         </div>
 
-        {/* =====================  BẢNG DANH SÁCH  ===================== */}
-        <motion.div
-          className="bg-gray-800 bg-opacity-50 backdrop-blur-md shadow-lg rounded-xl p-6 border border-gray-700"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-        >
+        {/* BẢNG */}
+        <div className="bg-gray-800 bg-opacity-50 backdrop-blur-md shadow-lg rounded-xl p-6 border border-gray-700">
           <h2 className="text-xl font-semibold text-gray-100 mb-4">
             Bảng đơn đặt vé
           </h2>
@@ -128,13 +125,13 @@ const ListBookings = () => {
             <table className="min-w-full border-collapse text-sm">
               <thead>
                 <tr className="bg-primary/20 text-white text-left">
-                  <th className="p-3 font-semibold min-w-[150px]">Khách hàng</th>
-                  <th className="p-3 font-semibold min-w-[260px]">Phim</th>
-                  <th className="p-3 font-semibold min-w-[160px]">Giờ chiếu</th>
-                  <th className="p-3 font-semibold min-w-[90px]">Ghế</th>
-                  <th className="p-3 font-semibold min-w-[100px]">Tổng tiền</th>
-                  <th className="p-3 font-semibold min-w-[110px]">Trạng thái</th>
-                  <th className="p-3 font-semibold text-center min-w-[80px]">Hành động</th>
+                  <th className="p-3 min-w-[150px]">Khách hàng</th>
+                  <th className="p-3 min-w-[260px]">Phim</th>
+                  <th className="p-3 min-w-[160px]">Giờ chiếu</th>
+                  <th className="p-3 min-w-[90px]">Ghế</th>
+                  <th className="p-3 min-w-[100px]">Tổng tiền</th>
+                  <th className="p-3 min-w-[110px]">Trạng thái</th>
+                  <th className="p-3 text-center min-w-[80px]">Hành động</th>
                 </tr>
               </thead>
 
@@ -150,19 +147,16 @@ const ListBookings = () => {
                     : "N/A";
 
                   return (
-                    <motion.tr
+                    <tr
                       key={index}
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      transition={{ duration: 0.3 }}
-                      className="hover:bg-gray-700/30 transition"
+                      className="hover:bg-gray-700/30 transition-colors"
                     >
-                      <td className="p-3 text-gray-200 font-medium">{userName}</td>
+                      <td className="p-3 text-gray-200 font-medium">
+                        {userName}
+                      </td>
 
-                      <td className="p-3 text-gray-300">
-                        <div className="truncate max-w-[260px]">
-                          {movieTitle}
-                        </div>
+                      <td className="p-3 text-gray-300 truncate max-w-[260px]">
+                        {movieTitle}
                       </td>
 
                       <td className="p-3 text-gray-300">{showTime}</td>
@@ -187,13 +181,13 @@ const ListBookings = () => {
                           <Eye size={18} />
                         </button>
                       </td>
-                    </motion.tr>
+                    </tr>
                   );
                 })}
               </tbody>
             </table>
           </div>
-        </motion.div>
+        </div>
       </main>
     </div>
   ) : (

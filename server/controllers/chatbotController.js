@@ -3,7 +3,7 @@ import { embed } from "../utils/embed.js";
 import { cosineSimilarity } from "../utils/vectorMath.js";
 import fetch from "node-fetch";
 
-const GEMINI_KEY = process.env.GEMINI_API_KEY;
+const GEMINI_KEY = process.env.GOOGLE_API_KEY;
 
 if (!GEMINI_KEY) {
   throw new Error("❌ GEMINI_API_KEY is missing in .env");

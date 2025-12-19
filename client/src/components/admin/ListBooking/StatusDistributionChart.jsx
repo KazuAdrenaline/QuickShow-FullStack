@@ -1,19 +1,17 @@
-// StatusDistributionChart.jsx
-import { motion } from "framer-motion";
 import {
-  PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer
+  PieChart,
+  Pie,
+  Cell,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
 } from "recharts";
 
 const COLORS = ["#10B981", "#F87171"]; // paid / unpaid
 
 const StatusDistributionChart = ({ data }) => {
   return (
-    <motion.div
-      className="bg-gray-800 bg-opacity-50 backdrop-blur-md shadow-lg rounded-xl p-6 border border-gray-700"
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.2 }}
-    >
+    <div className="bg-gray-800 bg-opacity-50 backdrop-blur-md shadow-lg rounded-xl p-6 border border-gray-700">
       <h2 className="text-xl font-semibold text-gray-100 mb-4">
         Booking Status Distribution
       </h2>
@@ -40,7 +38,7 @@ const StatusDistributionChart = ({ data }) => {
           </PieChart>
         </ResponsiveContainer>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

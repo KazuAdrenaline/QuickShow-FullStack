@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# python training & data
+Python/
+
+# env
+.env
+
+# build
+dist/
+build/
+
+# data / model
+*.csv
+*.zip
+*.log
+*.pt
+*.pkl
+*.npy

@@ -1,0 +1,36 @@
+/* Font tiếng Việt hỗ trợ đầy đủ dấu */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme{
+  --color-primary: #F84565;
+  --color-primary-dull: #D63854;
+}
+
+/* Dùng font tiếng Việt toàn hệ thống */
+*{
+  font-family: "Be Vietnam Pro", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #787777 #1e1e1e;
+}
+
+body{
+  color: white;
+  background-color: #09090B;
+}
+
+.no-scrollbar{
+  scrollbar-width: none;
+}
+
+/* Loại bỏ nút tăng giảm number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/* Invert icon calendar */
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}

@@ -1,0 +1,123 @@
+{
+  "nav.home": "Home",
+  "nav.movies": "Movies",
+  "nav.theaters": "Theaters",
+  "nav.releases": "Releases",
+  "nav.favorites": "Favorites",
+  "nav.login": "Login",
+  "nav.mybookings": "My Bookings",
+
+  "comment.title": "Comments",
+  "comment.post": "Post",
+  "comment.placeholder": "Write your comment...",
+  "comment.login_first": "Please log in first!",
+  "comment.must_purchase": "You must purchase a ticket before commenting.",
+  "comment.need_ticket": "You must buy a ticket to comment.",
+  "comment.post_success": "Comment posted!",
+  "comment.error_post": "Error posting comment.",
+  "comment.delete_success": "Comment deleted!",
+  "comment.update_success": "Comment updated!",
+  "comment.edit": "Edit",
+  "comment.delete": "Delete",
+  "comment.save": "Save",
+  "comment.cancel": "Cancel",
+  "comment.hidden": "**** (Comment hidden due to negativity)",
+  "comment.show": "Show original",
+  "comment.hide": "Hide",
+
+  "featured.now_showing": "Now Showing",
+  "featured.view_all": "View All",
+  "featured.show_more": "Show more",
+
+  "date.choose": "Choose Date",
+  "date.select_warning": "Please select a date",
+  "date.book_now": "Book Now",
+
+  "movie.language": "ENGLISH",
+  "movie.user_rating": "User Rating",
+  "movie.watch_trailer": "Watch Trailer",
+  "movie.buy_tickets": "Buy Tickets",
+  "movie.favorite_cast": "Favorite Cast",
+  "movie.may_like": "You may also like",
+  "movie.show_more": "Show more",
+  "movie.login_first": "Please login to continue",
+
+  "seat.available_timings": "Available Timings",
+  "seat.select_seat": "Select your seat",
+  "seat.screen_side": "SCREEN SIDE",
+  "seat.price_per_seat": "Price per seat",
+  "seat.total": "Total",
+
+  "seat.need_time": "Please select time first",
+  "seat.already_booked": "Seat already booked",
+  "seat.need_seats": "Please select seats",
+  "seat.login_first": "Please login first",
+  "seat.stripe_failed": "Stripe payment failed",
+  "seat.sepay_failed": "SePay payment failed",
+
+  "seat.pay_stripe": "Pay with Stripe",
+  "seat.pay_sepay": "Pay with SePay (QR)",
+  "booking.title": "My Bookings",
+"booking.payment_success": "Payment successful!",
+"booking.payment_failed": "Payment failed.",
+"booking.payment_cancelled": "Payment cancelled.",
+"booking.retry_failed": "Cannot restart payment",
+"booking.pay_now": "Pay Now",
+"booking.paid": "Paid",
+"booking.total_tickets": "Total Tickets",
+"booking.seat_numbers": "Seat Number",
+"hero.explore": "Explore",
+
+"hero.slide1.title": "Kimetsu no Yaiba Demon Slayer",
+"hero.slide1.genres": "Action | Fantasy | Adventure",
+"hero.slide1.episodes": "26 Episodes",
+"hero.slide1.desc": "Tanjiro Kamado, a kindhearted boy, finds his family slaughtered by demons. His sister Nezuko survives but becomes a demon. Tanjiro joins the Demon Slayer Corps to restore her humanity.",
+
+"hero.slide2.title": "Jujutsu Kaisen",
+"hero.slide2.genres": "Action | Supernatural | Shounen",
+"hero.slide2.episodes": "24 Episodes",
+"hero.slide2.desc": "Yuji Itadori enters the world of curses after consuming Sukuna's finger. To protect humanity, he joins Tokyo Jujutsu High as a Jujutsu Sorcerer.",
+
+"hero.slide3.title": "Chainsaw Man",
+"hero.slide3.genres": "Action | Horror | Dark Fantasy",
+"hero.slide3.episodes": "12 Episodes",
+"hero.slide3.desc": "Denji fuses with the Chainsaw Devil Pochita to become Chainsaw Man — a devil hunter seeking freedom and a better life.",
+
+"sentiment.positive": "Positive",
+"sentiment.neutral": "Neutral",
+"sentiment.negative": "Negative",
+"comment.reply": "Reply",
+"comment.reply_placeholder": "Write a reply...",
+"comment.likes": "likes",
+"comment.dislikes": "dislikes",
+"comment.show_replies": "View {{count}} replies",
+"comment.hide_replies": "Hide replies",
+"comment.filter": "Filter",
+"comment.filter_newest": "Newest",
+"comment.filter_oldest": "Oldest",
+"comment.filter_most_liked": "Most liked",
+"comment.filter_least_liked": "Least liked",
+
+  "trailers": {
+    "title": "Trailers"
+  }
+,
+
+  "movies": {
+    "now_showing": "Now Showing",
+    "empty": "No movies available"
+  }
+
+,
+
+  "comment": {
+    "choose_file": "Choose file"
+  }
+
+
+
+
+
+
+
+}

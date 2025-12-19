@@ -1,0 +1,124 @@
+{
+  "nav.home": "Trang chủ",
+  "nav.movies": "Phim",
+  "nav.theaters": "Rạp chiếu",
+  "nav.releases": "Phát hành",
+  "nav.favorites": "Yêu thích",
+  "nav.login": "Đăng nhập",
+  "nav.mybookings": "Vé của tôi",
+
+  "comment.title": "Bình luận",
+  "comment.post": "Đăng",
+  "comment.placeholder": "Nhập bình luận...",
+  "comment.login_first": "Bạn phải đăng nhập trước!",
+  "comment.must_purchase": "Bạn phải mua vé trước khi bình luận.",
+  "comment.need_ticket": "Bạn phải mua vé để bình luận.",
+  "comment.post_success": "Đăng bình luận thành công!",
+  "comment.error_post": "Lỗi khi đăng bình luận.",
+  "comment.delete_success": "Xoá bình luận thành công!",
+  "comment.update_success": "Cập nhật bình luận thành công!",
+  "comment.edit": "Sửa",
+  "comment.delete": "Xoá",
+  "comment.save": "Lưu",
+  "comment.cancel": "Huỷ",
+  "comment.hidden": "**** (Bình luận đã bị ẩn vì tiêu cực)",
+  "comment.show": "Hiện nguyên văn",
+  "comment.hide": "Ẩn bớt",
+
+  "featured.now_showing": "Đang chiếu",
+  "featured.view_all": "Xem tất cả",
+  "featured.show_more": "Xem thêm",
+  
+
+  "date.choose": "Chọn ngày",
+  "date.select_warning": "Vui lòng chọn ngày",
+  "date.book_now": "Đặt vé",
+  "date.month_format": "short",
+  
+  "movie.language": "TIẾNG ANH",
+  "movie.user_rating": "Đánh giá người dùng",
+  "movie.watch_trailer": "Xem Trailer",
+  "movie.buy_tickets": "Mua vé",
+  "movie.favorite_cast": "Diễn viên nổi bật",
+  "movie.may_like": "Có thể bạn cũng thích",
+  "movie.show_more": "Xem thêm",
+  "movie.login_first": "Vui lòng đăng nhập để tiếp tục",
+  "booking.title": "Vé của tôi",
+
+"booking.payment_success": "Thanh toán thành công!",
+"booking.payment_failed": "Thanh toán thất bại.",
+"booking.payment_cancelled": "Bạn đã hủy thanh toán.",
+"booking.retry_failed": "Không thể tạo lại thanh toán",
+"booking.pay_now": "Thanh toán ngay",
+"booking.paid": "Đã thanh toán",
+"booking.total_tickets": "Tổng số vé",
+"booking.seat_numbers": "Số ghế",
+"hero.explore": "Khám phá",
+
+"hero.slide1.title": "Thanh Gươm Diệt Quỷ: Kimetsu no Yaiba",
+"hero.slide1.genres": "Hành động | Giả tưởng | Phiêu lưu",
+"hero.slide1.episodes": "26 tập",
+"hero.slide1.desc": "Tanjiro Kamado – một cậu bé tốt bụng – chứng kiến gia đình bị quỷ sát hại. Nezuko, em gái cậu, sống sót nhưng biến thành quỷ. Tanjiro gia nhập Sát Quỷ Đoàn để tìm cách đưa Nezuko trở lại làm người.",
+
+"hero.slide2.title": "Chú Thuật Hồi Chiến",
+"hero.slide2.genres": "Hành động | Siêu nhiên | Shounen",
+"hero.slide2.episodes": "24 tập",
+"hero.slide2.desc": "Yuji Itadori bước vào thế giới chú thuật sau khi nuốt ngón tay Sukuna. Để bảo vệ nhân loại, cậu gia nhập trường Chú Thuật Tokyo và trở thành một chú thuật sư.",
+
+"hero.slide3.title": "Chainsaw Man",
+"hero.slide3.genres": "Hành động | Kinh dị | Dark Fantasy",
+"hero.slide3.episodes": "12 tập",
+"hero.slide3.desc": "Denji hợp nhất với Quỷ Cưa Pochita để trở thành Chainsaw Man – một thợ săn quỷ tìm kiếm tự do và cuộc sống tốt đẹp hơn.",
+
+  "seat.available_timings": "Các suất chiếu khả dụng",
+  "seat.select_seat": "Chọn ghế của bạn",
+  "seat.screen_side": "MÀN HÌNH",
+  "seat.price_per_seat": "Giá mỗi ghế",
+  "seat.total": "Tổng tiền",
+
+  "seat.need_time": "Vui lòng chọn suất chiếu trước",
+  "seat.already_booked": "Ghế này đã có người đặt",
+  "seat.need_seats": "Vui lòng chọn ghế",
+  "seat.login_first": "Vui lòng đăng nhập trước",
+  "seat.stripe_failed": "Thanh toán Stripe thất bại",
+  "seat.sepay_failed": "Thanh toán SePay thất bại",
+
+  "seat.pay_stripe": "Thanh toán Stripe",
+  "seat.pay_sepay": "Thanh toán SePay (QR)",
+  "sentiment.positive": "Tích cực",
+"sentiment.neutral": "Trung lập",
+"sentiment.negative": "Tiêu cực",
+"comment.reply": "Phản hồi",
+"comment.reply_placeholder": "Nhập phản hồi...",
+"comment.likes": "lượt thích",
+"comment.dislikes": "không thích",
+"comment.show_replies": "Xem {{count}} phản hồi",
+"comment.hide_replies": "Ẩn phản hồi",
+"comment.filter": "Bộ lọc",
+"comment.filter_newest": "Mới nhất",
+"comment.filter_oldest": "Cũ nhất",
+"comment.filter_most_liked": "Nhiều lượt thích nhất",
+"comment.filter_least_liked": "Ít lượt thích nhất",
+
+  "trailers": {
+    "title": "Đoạn giới thiệu"
+  }
+,
+
+  "movies": {
+    "now_showing": "Đang chiếu",
+    "empty": "Hiện không có phim nào"
+  }
+,
+
+  "comment": {
+    "choose_file": "Chọn tệp"
+  }
+
+
+
+
+
+
+
+}

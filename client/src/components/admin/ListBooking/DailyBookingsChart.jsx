@@ -1,17 +1,17 @@
-// DailyBookingsChart.jsx
-import { motion } from "framer-motion";
 import {
-  LineChart, Line, XAxis, YAxis, CartesianGrid,
-  Tooltip, ResponsiveContainer, Legend
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+  Legend,
 } from "recharts";
 
 const DailyBookingsChart = ({ data }) => {
   return (
-    <motion.div
-      className="bg-gray-800 bg-opacity-50 backdrop-blur-md shadow-lg rounded-xl p-6 border border-gray-700"
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-    >
+    <div className="bg-gray-800 bg-opacity-50 backdrop-blur-md shadow-lg rounded-xl p-6 border border-gray-700">
       <h2 className="text-xl font-semibold text-gray-100 mb-4">
         Daily Bookings
       </h2>
@@ -39,7 +39,7 @@ const DailyBookingsChart = ({ data }) => {
           </LineChart>
         </ResponsiveContainer>
       </div>
-    </motion.div>
+    </div>
   );
 };
 

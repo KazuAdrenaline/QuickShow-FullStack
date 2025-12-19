@@ -1,6 +1,5 @@
 import express from "express";
 import { requireAuth } from "@clerk/express";
-import { upload } from "../middleware/upload.js";
 
 import {
   addComment,
@@ -22,16 +21,16 @@ import {
 const router = express.Router();
 
 /* COMMENT */
-router.post("/add", requireAuth(), upload.single("image"), addComment);
+router.post("/add", requireAuth(), addComment);
 router.get("/:movieId", getComments);
-router.put("/:commentId", requireAuth(), upload.single("image"), updateComment);
+router.put("/:commentId", requireAuth(), updateComment);
 router.delete("/:commentId", requireAuth(), deleteComment);
 router.post("/:commentId/like", requireAuth(), likeComment);
 router.post("/:commentId/dislike", requireAuth(), dislikeComment);
 
 /* REPLY */
-router.post("/:commentId/reply", requireAuth(), upload.single("image"), replyComment);
-router.put("/:commentId/reply/:replyId", requireAuth(), upload.single("image"), updateReply);
+router.post("/:commentId/reply", requireAuth(), replyComment);
+router.put("/:commentId/reply/:replyId", requireAuth(), updateReply);
 router.delete("/:commentId/reply/:replyId", requireAuth(), deleteReply);
 router.post("/:commentId/reply/:replyId/like", requireAuth(), likeReply);
 router.post("/:commentId/reply/:replyId/dislike", requireAuth(), dislikeReply);
